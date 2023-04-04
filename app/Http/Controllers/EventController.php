@@ -30,5 +30,9 @@ public function deleteLatter()
     $shape->delete();
     return response()->json(['message' => 'Shape deleted successfully', 'data' => $deletedShape]); 
 }
+public function index()
+{
+echo 'Teste';
+}
 
 }
